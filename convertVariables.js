@@ -2,7 +2,7 @@ const fs = require("fs");
 // const _ = require("lodash");
 
 // Load the exported variables from Figma
-const data = require(".tokens/exportedVariables.json");
+const data = require("./tokens/tokens.Odo.json");
 
 // Define the fields that contain colors and their respective Tailwind keywords.
 // This can be remove if the Figma variables use the same naming as in Tailwind.
